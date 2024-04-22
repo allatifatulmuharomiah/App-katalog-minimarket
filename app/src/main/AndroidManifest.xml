@@ -13,11 +13,29 @@
         android:theme="@style/Theme.Minimarket"
         tools:targetApi="31">
         <activity
+            android:name=".lainlain"
+            android:exported="false"
+            android:parentActivityName=".lainlain"
+            android:theme="@style/Theme.Minimarket"/>
+        <activity
+            android:name=".makanan"
+            android:exported="false"
+            android:parentActivityName=".makanan"
+            android:theme="@style/Theme.Minimarket"/>
+        <activity
+            android:name=".buahsayur"
+            android:exported="false"
+            android:parentActivityName=".buahsayur"
+            android:theme="@style/Theme.Minimarket"/>
+        <activity
             android:name=".minuman"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".minuman"
+            android:theme="@style/Theme.Minimarket" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:label="Dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

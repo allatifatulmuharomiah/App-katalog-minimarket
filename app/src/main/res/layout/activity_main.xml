@@ -67,10 +67,11 @@
                 android:layout_marginTop="24dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn1"
                     android:layout_width="0dp"
                     android:layout_height="180dp"
-                    android:layout_weight="0.5"
                     android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
                     android:background="@drawable/btn_bg_1">
 
                     <ImageView
@@ -99,11 +100,12 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn2"
                     android:layout_width="0dp"
                     android:layout_height="180dp"
+                    android:layout_marginStart="24dp"
                     android:layout_weight="0.5"
-                    android:background="@drawable/btn_bg_1"
-                    android:layout_marginStart="24dp">
+                    android:background="@drawable/btn_bg_1">
 
                     <ImageView
                         android:id="@+id/imageViewfruit"
@@ -141,10 +143,11 @@
                 android:layout_marginTop="24dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn3"
                     android:layout_width="0dp"
                     android:layout_height="180dp"
-                    android:layout_weight="0.5"
                     android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
                     android:background="@drawable/btn_bg_1">
 
                     <ImageView
@@ -173,11 +176,12 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn4"
                     android:layout_width="0dp"
                     android:layout_height="180dp"
+                    android:layout_marginStart="24dp"
                     android:layout_weight="0.5"
-                    android:background="@drawable/btn_bg_1"
-                    android:layout_marginStart="24dp">
+                    android:background="@drawable/btn_bg_1">
 
                     <ImageView
                         android:id="@+id/imageViewhouse"
