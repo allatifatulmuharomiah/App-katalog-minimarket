@@ -53,7 +53,31 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextProductName"
+                android:id="@+id/updateTextIdName"
+                android:layout_width="333dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/edittext_background"
+                android:drawableLeft="@drawable/baseline_numbers_24"
+                android:drawablePadding="8dp"
+                android:hint="Id"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/updateTextProductName"
                 android:layout_width="333dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -77,7 +101,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextProductName"
+                android:id="@+id/updateTextProductName"
                 android:layout_width="333dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
@@ -95,7 +119,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/buttonSubmit"
+            android:id="@+id/buttonSubmit2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
