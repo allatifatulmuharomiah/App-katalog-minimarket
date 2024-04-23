@@ -100,7 +100,7 @@
             android:orientation="horizontal">
 
             <EditText
-                android:id="@+id/editTextProductName"
+                android:id="@+id/editTextProductPrice"
                 android:layout_width="333dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"

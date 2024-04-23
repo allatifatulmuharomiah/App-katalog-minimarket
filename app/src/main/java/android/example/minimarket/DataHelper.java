@@ -16,12 +16,12 @@ public class DataHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "CREATE TABLE biodata(id INTEGER PRIMARY KEY, nama TEXT NULL, harga INTEGER NULL)";
+        String sql = "CREATE TABLE minuman(id INTEGER PRIMARY KEY, nama TEXT NULL, harga INTEGER NULL)";
         Log.d("Data", "onCreate: " + sql);
         db.execSQL(sql);
 
         // Insert sample data
-        sql = "INSERT INTO biodata (id, nama, harga) VALUES ('0', 'Susu Segar', '7000')";
+        sql = "INSERT INTO minuman (id, nama, harga) VALUES ('0', 'Susu Segar', '7000')";
         db.execSQL(sql);
     }
 
@@ -29,7 +29,7 @@ public class DataHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         // Handle database upgrades, if needed
         Log.w(DataHelper.class.getName(), "Upgrading database from version " + oldVersion + " to " + newVersion + ", which will destroy all old data");
-        db.execSQL("DROP TABLE IF EXISTS biodata");
+        db.execSQL("DROP TABLE IF EXISTS minuman");
         onCreate(db);
     }
 }
