@@ -109,7 +109,7 @@
                 android:drawableLeft="@drawable/baseline_discount_24"
                 android:drawablePadding="8dp"
                 android:hint="Harga"
-                android:inputType="text"
+                android:inputType="number"
                 android:minHeight="48dp"
                 android:padding="5dp"
                 android:textColor="@color/black"
