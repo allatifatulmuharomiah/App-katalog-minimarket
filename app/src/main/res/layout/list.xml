@@ -37,15 +37,15 @@
             android:layout_toEndOf="@id/listImage"/>
 
         <TextView
+            android:id="@+id/listPrice"
             android:layout_width="80dp"
             android:layout_height="30dp"
-            android:id="@+id/listPrice"
-            android:text="time"
-            android:textSize="16sp"
-            android:layout_toEndOf="@id/listName"
+            android:layout_marginStart="11dp"
             android:layout_marginTop="25dp"
-            android:layout_marginStart="100dp"
-            android:textColor="@color/lavender"/>
+            android:layout_toEndOf="@id/listName"
+            android:text="price"
+            android:textColor="@color/lavender"
+            android:textSize="16sp" />
 
     </RelativeLayout>
 
