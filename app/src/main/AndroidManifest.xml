@@ -13,20 +13,25 @@
         android:theme="@style/Theme.Minimarket"
         tools:targetApi="31">
         <activity
+            android:name=".inputproduk"
+            android:exported="false"
+            android:parentActivityName=".inputproduk"
+            android:theme="@style/Theme.Minimarket"/>
+        <activity
             android:name=".lainlain"
             android:exported="false"
             android:parentActivityName=".lainlain"
-            android:theme="@style/Theme.Minimarket"/>
+            android:theme="@style/Theme.Minimarket" />
         <activity
             android:name=".makanan"
             android:exported="false"
             android:parentActivityName=".makanan"
-            android:theme="@style/Theme.Minimarket"/>
+            android:theme="@style/Theme.Minimarket" />
         <activity
             android:name=".buahsayur"
             android:exported="false"
             android:parentActivityName=".buahsayur"
-            android:theme="@style/Theme.Minimarket"/>
+            android:theme="@style/Theme.Minimarket" />
         <activity
             android:name=".minuman"
             android:exported="false"
